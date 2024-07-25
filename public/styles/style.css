@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .navs, .headers{
@@ -82,4 +83,43 @@ button{
 /*End of here and nav*/
 /*Start of info section*/
 
+.content{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 200px;
+}
+
+.content-img{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-info{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    font-color: #1F2937;
+}
+
+.author{
+    align-self: flex-end;
+    margin-right: 20px;
+}
 
