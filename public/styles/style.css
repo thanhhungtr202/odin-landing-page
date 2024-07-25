@@ -107,8 +107,7 @@ button{
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 100px 200px;
 }
 
 .quote-info{
@@ -118,8 +117,32 @@ button{
     font-color: #1F2937;
 }
 
-.author{
-    align-self: flex-end;
-    margin-right: 20px;
+b{
+    text-align: end;
 }
 
+.action-form{
+    padding: 25px 20px;
+    background-color: #3882F6;
+    margin: 100px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    color: white;
+}
+
+.action-form button{
+    color: white;
+    border-color: white;
+}
+
+.form-description{
+    text-align: left;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 0px;
+}
